@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
 int main() {
@@ -7,7 +6,7 @@ int main() {
     char s2[100][100];
     int j = 0, k = 0;
     gets(s1);
-    for (int i = 0, ; i < strlen(s1); i++) {
+    for (int i = 0; i < strlen(s1); i++) {
         if (s1[i] != ' ') {
             s2[j][k++] = s1[i];
         } else {
